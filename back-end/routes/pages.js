@@ -33,7 +33,7 @@ router.post('/login', async (req, res) => {
                 console.log(error)
             }
             else if(results.length == 0){
-                console.log("Wrong Email!")
+                console.log("Wrong Email!!!!!!")
                 res.json('Wrong Email!')
             }else{
                 let spword = results[0].s_pword
