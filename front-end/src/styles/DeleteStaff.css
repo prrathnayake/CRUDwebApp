@@ -1,0 +1,13 @@
+.delete-title{
+    padding: 20px;
+}
+
+.delete-body{
+    display: flex;
+    justify-content: center;
+}
+
+.delete-button{
+    padding: 5px 20px;
+    margin-right: 20px;
+}

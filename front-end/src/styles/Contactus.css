@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ContactUs{
+    color: white;
+    height:calc(100vh - 80px);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('../images/frontend_webdeveloper.jpg');
+    text-align: center;
+} 
+
+.ContactUs h1{
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.contact-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-body p{
+    width: 50%;
+    font-size: 20px;
+    padding: 50px 30px 30px 30px;
+    text-align: justify;
+}
+
+.contact-form{
+    padding: 20px;
+    padding-left: 40px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact-form label{
+    padding: 10px;
+}
+
+.contact-form input{
+    padding: 10px;
+}
+
+.contact-form textarea{
+    padding: 10px;
+    overflow: auto;
+    resize: none;
+    font-size: 15px;
+}
+
+.contact-form button{
+    margin: 10px;
+    padding: 10px 20px;
+    width: 100px;
+}
+

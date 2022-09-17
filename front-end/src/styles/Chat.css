@@ -1,0 +1,54 @@
+.Chat {
+    display: grid;
+    place-items: center
+}
+
+.room{
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.room input{
+    border:none;
+    outline-width: 0;
+    outline: none;
+}
+
+.chat-box{
+    margin-top:20px;
+    width: 60%;
+    height: 450px;
+    border: 2px solid black;
+    overflow-y: scroll;
+}
+
+.send{
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.send input{
+    border:none;
+    outline-width: 0;
+    outline: none;
+}
+
+.message {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border: 1px solid black ;
+    border-radius: 5px;
+}
+
+.message-send {
+    margin-left: auto; 
+    margin-right: 10;
+    width: 80%;
+    border: 1px solid black ;
+    border-radius: 5px;
+}
